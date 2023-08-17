@@ -16,15 +16,3 @@ function App() {
 }
 
 export default App;
-
-
-const Checkbox = styled.input.attrs(() => ({
-    type: "checkbox"
-
-}))`
-  padding: 5px 15px;
-  margin: 10px 0;
-  width: 100px;
-  font-size: 1rem;
-
-`
