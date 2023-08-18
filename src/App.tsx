@@ -6,7 +6,9 @@ import {Works} from "./layout/sections/works/Works";
 import {Testimony} from "./layout/sections/testimony/Testimony";
 import {Contact} from "./layout/sections/contacts/Contacts";
 import {Slogan} from "./layout/sections/slogan/Slogan";
+import {Footer} from "./layout/footer/Footer";
 
+const iconSocial = ['instagram', 'telegram', 'vk-logo', 'linkedin']
 
 function App() {
     return (
@@ -18,6 +20,7 @@ function App() {
             <Testimony/>
             <Contact/>
             <Slogan/>
+            <Footer footerIcon={iconSocial}/>
         </div>
     );
 }
