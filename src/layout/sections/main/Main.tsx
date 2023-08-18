@@ -21,7 +21,8 @@ export const Main = () => {
 
 const StyledMain = styled.div`
   min-height: 100vh;
-  background-color: #aeadad;
+  background-image: linear-gradient(136deg, rgb(33, 52, 83), rgba(200, 150, 200))
+  //background-color: #aeadad;
 `
 
 const Photo = styled.img`

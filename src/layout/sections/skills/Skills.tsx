@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
-import {FlexWrapper} from "../../components/FlexWrapper";
-import {SectionTitle} from "../../components/SectionTitle";
+import {FlexWrapper} from "../../../components/FlexWrapper";
+import {SectionTitle} from "../../../components/SectionTitle";
 import {Skill} from "./skill/Skill";
 
 export const Skills = () => {
@@ -34,6 +34,7 @@ export const Skills = () => {
 
 
 const StyledSkills = styled.section`
-  background-color: #78b962;
+  background-image: linear-gradient(136deg, rgb(33, 52, 83), rgba(200, 150, 200));
+  //background-color: #aeadad;
   min-height: 100vh;
 `
