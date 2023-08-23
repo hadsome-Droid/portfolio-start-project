@@ -28,7 +28,6 @@ export const Footer = (props: { footerIcon: Array<string> }) => {
 };
 
 const StyledFooter = styled.footer`
-  background-image: linear-gradient(136deg, rgb(33, 52, 83), rgba(200, 150, 200));
   min-height: 20vh;
 
 `
