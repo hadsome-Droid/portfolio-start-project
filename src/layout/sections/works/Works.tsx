@@ -15,12 +15,12 @@ export const Works = () => {
             <Container>
                 <SectionTitle>My Works</SectionTitle>
                 <TabMenu menuItems={worksItems}/>
-                <FlexWrapper justify={'space-between'}>
+                <FlexWrapper justify={'space-between'} align={'flex-start'} gap={'60px'}>
                     <Work title={'Social Network'}
                           info={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
                           src={Social}/>
                     <Work title={'Timer'}
-                          info={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
+                          info={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit  ut labore et dolore magna aliqua Ut enim'}
                           src={Timer}/>
                 </FlexWrapper>
             </Container>
@@ -29,6 +29,6 @@ export const Works = () => {
 };
 
 const StyledWorks = styled.section`
-  min-height: 100vh;
+
 
 `
