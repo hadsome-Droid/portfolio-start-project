@@ -1,10 +1,15 @@
 import React from 'react';
 import {Icon} from "../icon/Icon";
+import styled from "styled-components";
 
 export const Logo = () => {
     return (
-        <a>
+        <StyledLogo>
             <Icon iconId={'react'}/>
-        </a>
+        </StyledLogo>
     );
 };
+
+const StyledLogo = styled.a`
+  
+`
