@@ -51,6 +51,7 @@ const Field = styled.input`
   font-weight: 400;
   letter-spacing: 0.6px;
 
+
   &::placeholder {
     color: ${theme.colors.placeholderColor};
     text-transform: capitalize;
