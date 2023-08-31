@@ -11,8 +11,8 @@ export const SectionTitle = styled.h2`
   })}
 
   text-align: center;
-  letter-spacing: 5px;
-  margin-bottom: 90px;
+  letter-spacing: 3px;
+  margin-bottom: 87px;
 
   position: relative;
 
