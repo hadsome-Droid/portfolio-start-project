@@ -3,15 +3,21 @@ import {theme} from "../../styles/Theme";
 
 const Slider = styled.div`
   max-width: 500px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 `
 const Slide = styled.div`
   text-align: center;
 `
 const Text = styled.p`
+  cursor: grab;
 
+  &:active {
+    cursor: grabbing;
+  }
 `
 const Name = styled.span`
   display: inline-block;
