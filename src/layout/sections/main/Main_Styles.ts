@@ -53,6 +53,8 @@ const MainTitle = styled.h1`
   p {
     display: none;
   }
+
+  position: relative;
 `
 const Name = styled.h2`
   ${font({
@@ -63,6 +65,7 @@ const Name = styled.h2`
   })}
   letter-spacing: 2.5px;
   margin: 10px 0;
+  position: relative;
 
   span {
     position: relative;
@@ -90,6 +93,7 @@ const Name = styled.h2`
 const MainText = styled.span`
   font-size: 14px;
   font-weight: 400;
+  position: relative;
 `
 
 export const S = {
