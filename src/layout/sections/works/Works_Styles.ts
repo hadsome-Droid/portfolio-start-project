@@ -5,7 +5,7 @@ import {Button} from "../../../components/Button";
 
 // Works
 const Works = styled.section`
-
+  position: relative;
 `
 
 // Work
