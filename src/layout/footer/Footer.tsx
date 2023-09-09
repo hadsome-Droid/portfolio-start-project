@@ -17,7 +17,7 @@ export const Footer: React.FC<FooterPropsType> = (props: { footerIcon: Array<str
                     {props.footerIcon.map((icon, index) => {
                         return <S.SocialItem key={index}>
                             <S.SocialLink>
-                                <Icon height={'21px'} width={'21px'} viewBox={'0 0 21 21'} iconId={icon}/>
+                                <Icon height={'21'} width={'21'} viewBox={'0 0 21 21'} iconId={icon}/>
                             </S.SocialLink>
                         </S.SocialItem>
                     })}
