@@ -9,7 +9,6 @@ import {Slogan} from "./layout/sections/slogan/Slogan";
 import {Footer} from "./layout/footer/Footer";
 import {Particle} from "./components/particle/Particle";
 import {GoTopBtn} from "./components/goTopBtn/GoTopBtn";
-import {ArrowUp} from "./assets/images/ArrowUp";
 
 const iconSocial = ['instagram', 'telegram', 'vk-logo', 'linkedin']
 
