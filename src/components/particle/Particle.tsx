@@ -19,11 +19,11 @@ export const Particle = () => {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-                background: {
-                    color: {
-                        value: "#1F1F20",
-                    },
-                },
+                // background: {
+                //     color: {
+                //         value: "#1F1F20",
+                //     },
+                // },
                 fpsLimit: 120,
                 particles: {
                     number: {
@@ -35,23 +35,16 @@ export const Particle = () => {
                     },
                     color: {
                         value: "#fff"
-                        // value: "#7572D5"
                     },
                     shape: {
                         type: "star",
                         stroke: {
                             width: 1,
                             color: "#7572D5"
-                            // color: "#fff"
                         },
                         polygon: {
                             nb_sides: 5
                         },
-                        'image': {
-                            'src': "img/github.svg",
-                            'width': 100,
-                            'height': 100
-                        }
                     },
                     opacity: {
                         value: 0.5,
