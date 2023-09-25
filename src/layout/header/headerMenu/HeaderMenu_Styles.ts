@@ -2,7 +2,7 @@ import styled, {css} from "styled-components";
 import {theme} from "../../../styles/Theme";
 import {Link} from "react-scroll";
 
-// Menu
+// MobileMenu
 const MenuItem = styled.li`
   position: relative;
 
@@ -68,7 +68,7 @@ const NavLink = styled(Link)`
   }
 `
 
-// Mobile Menu
+// Mobile MobileMenu
 const MobileMenu = styled.nav`
 
 `
@@ -155,7 +155,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
   }
 `
 
-// Desktop Menu
+// Desktop MobileMenu
 const DesktopMenu = styled.nav`
   ul {
     display: flex;
