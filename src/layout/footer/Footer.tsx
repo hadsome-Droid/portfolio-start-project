@@ -4,25 +4,37 @@ import {Icon} from "../../components/icon/Icon";
 import {FlexWrapper} from "../../components/FlexWrapper";
 import {S} from './Footer_Styles';
 
-
-type FooterPropsType = {
-    footerIcon: Array<string>
+type Social = {
+    name: string;
+    link: string
 }
-export const Footer: React.FC<FooterPropsType> = (props: { footerIcon: Array<string> }) => {
+
+type Props = {
+    socialList: Array<Social>
+}
+export const Footer: React.FC<Props> = (props: { socialList: Array<Social> }) => {
     return (
         <S.Footer>
             <FlexWrapper direction={'column'} align={'center'}>
-                <S.Name>Svetlana</S.Name>
+                <S.Name>Ivan</S.Name>
                 <S.SocialList>
-                    {props.footerIcon.map((icon, index) => {
+                    {props.socialList.map((social, index) => {
                         return <S.SocialItem key={index}>
-                            <S.SocialLink>
-                                <Icon height={'21'} width={'21'} viewBox={'0 0 21 21'} iconId={icon}/>
-                            </S.SocialLink>
+                            {
+                                social.link !== ''
+                                    ? <S.SocialLink href={social.link} target="_blank" rel="noopener noreferrer">
+                                        <Icon height={'22'} width={'22'} viewBox={'0 0 22 22'} iconId={social.name}/>
+                                    </S.SocialLink>
+                                    :
+                                    <S.SocialLink href={social.link}>
+                                        <Icon height={'22'} width={'22'} viewBox={'0 0 22 22'} iconId={social.name}/>
+                                    </S.SocialLink>
+                            }
+
                         </S.SocialItem>
                     })}
                 </S.SocialList>
-                <S.Copyright>© 2023 Svetlana Dyablo, All Rights Reserved.</S.Copyright>
+                <S.Copyright>© 2023 Zotov Ivan, All Rights Reserved.</S.Copyright>
             </FlexWrapper>
         </S.Footer>
     );

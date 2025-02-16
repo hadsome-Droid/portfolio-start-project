@@ -10,7 +10,12 @@ import {Footer} from "./layout/footer/Footer";
 import {Particle} from "./components/particle/Particle";
 import {GoTopBtn} from "./components/goTopBtn/GoTopBtn";
 
-const iconSocial = ['instagram', 'telegram', 'vk-logo', 'linkedin']
+const socialList = [
+    {name: 'telegram', link: 'https://t.me/Hadsom1'},
+    {name: 'vk-logo', link: ''},
+    {name: 'linkedin', link: ''},
+    {name: 'gitHub', link: 'https://github.com/hadsome-Droid',},
+]
 
 function App() {
     return (
@@ -23,7 +28,7 @@ function App() {
             <Testimony/>
             <Contact/>
             <Slogan/>
-            <Footer footerIcon={iconSocial}/>
+            <Footer socialList={socialList}/>
             <GoTopBtn/>
         </div>
     );
